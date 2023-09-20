@@ -1,0 +1,74 @@
+
+  .login-container {
+    background-color: var(--container-color);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px var(--button-color);
+    padding: 20px 30px;
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: var(--first-color);
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: .8rem;
+  }
+
+  input::placeholder{
+    color: #ccc;
+  }
+
+  input:focus {
+    outline: none; 
+  }
+  
+  .sign-up{
+    font-size: var(--normal-font-size);
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .sign-up a {
+    color: var(--first-color);
+    text-decoration: none;
+  }
+  
+  .sign-up span:hover {
+    text-decoration: underline;
+  }
+  
+  .error{
+    background-color: rgb(255, 65, 65);
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: .8rem;
+    position: relative;
+  }
+
+  .error-message{
+    position: absolute;
+    margin: 5px 0 0 10px;
+  }
