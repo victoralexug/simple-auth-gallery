@@ -84,8 +84,8 @@ function ImageGallery({ user, auth }) {
                         ))}
                     </div>
 
-                    <div className="sign-up">
-                        <button onClick={handleSignOut}>Sign Out</button>
+                    <div className="sign-out">
+                        <button onClick={handleSignOut}><i className='bx bx-log-out'></i><span>  Sign Out</span></button>
                     </div>
                 </div>
             )}

@@ -23,7 +23,7 @@ function Signin() {
   return (
     <div>    
       <div className="login-container">
-        <h2>Login to Your Account</h2>
+        <h2>Login to Image Gallery</h2>
 
               {/* Display Error message */}
           {error && <p className='error'>

@@ -44,12 +44,28 @@
     outline: none; 
   }
   
-  .sign-up{
+  .sign-up, .sign-out{
     font-size: var(--normal-font-size);
     margin-top: 15px;
     color: #555;
   }
   
+  .sign-out{
+    position: fixed;
+    top: 0;
+    right: 20px;
+  }
+  
+  .sign-out button{
+    font-size: var(--small-font-size);
+  }
+
+  @media (max-width: 525px) {
+    .sign-out span{
+      display: none;
+    }
+  }
+
   .sign-up a {
     color: var(--first-color);
     text-decoration: none;
