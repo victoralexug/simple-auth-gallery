@@ -35,7 +35,7 @@ function ImageGallery({ user, auth }) {
       setTimeout(() => {
         setImages(data.GalleryData);
         setLoading(false);
-      }, 2000);
+      }, 3500);
     }, []);
 
 
